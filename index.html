@@ -15,33 +15,18 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <a href="#" id="active">
+        <nav class="navbar" id="navjs">
+            <a href="#" class="active">
                 <i class="fas fa-globe-americas"></i>
                 Evolving-IT
             </a>
             <a href="#">Contact</a>
             <a href="#">Products</a>
             <a href="#">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="openOverlay()">
+            <a href="javascript:void(0);" class="icon" onclick="navbarFun()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
-
-        <div class="overlay" id="overnav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeOverlay()">
-                <i class="far fa-times-circle"></i>
-            </a>
-            <div class="overlay-content">
-                <a href="#" id="active">
-                    <i class="fas fa-globe-americas"></i>
-                    Homepage
-                </a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
     </header>
 
     <div class="hero">
@@ -58,7 +43,9 @@
             </div>
         </div>
     </div>
-    
+
+
+
     <main>
         <div class="wrapper">
             <h2>Homepage</h2>

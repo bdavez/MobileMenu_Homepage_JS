@@ -1,7 +1,8 @@
-function openOverlay() {
-    document.getElementById("overnav").style.height = "100%";
-  }
-  
-  function closeOverlay() {
-    document.getElementById("overnav").style.height = "0%";
-  }
+function navbarFun() {
+    var x = document.getElementById("navjs");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
